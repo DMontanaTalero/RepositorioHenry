@@ -1,0 +1,47 @@
+/* Estilo por ETIQUETA*/
+body{
+    background-color: aliceblue;
+}
+
+/* Estilo por CLASE se coloca un . y el nombre*/
+
+
+.fondo {
+    background-color: red;
+}
+
+/* Estilo por CLASE se coloca un . y el nombre*/
+
+.miTexto {
+    font-size: 80px;
+    color: green;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 8%;
+    background-size: 10px 10px;
+}
+
+.cards:hover{
+    background-color: aqua;
+}
+
+/* Estilo por ID se coloca un # y el nombre*/
+
+#Texto{
+    font-size: 4.5em;
+    color: blue;
+}
+
+/**/
+
+#titulos{
+    border: 2px solid black;
+    /* vw -> viewport width % de la pantalla*/
+    width: 65vw;
+    margin: auto;
+    padding: 1em;
+}
