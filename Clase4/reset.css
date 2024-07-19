@@ -1,0 +1,64 @@
+/* reset.css */
+
+/* 1. Elimina los márgenes y el relleno predeterminados */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Establece el tamaño de fuente base */
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* 3. Hereda los tamaños de fuente en el cuerpo */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* 4. Elimina la decoración de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 5. Elimina los estilos de lista predeterminados */
+ol, ul {
+    list-style: none;
+}
+
+/* 6. Establece el estilo de los botones */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* 7. Asegura que las imágenes y vídeos respondan correctamente */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 8. Asegura que las tablas tengan un colapso de borde */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 9. Restablece los estilos para los campos de formulario */
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+/* 10. Restablece los estilos para las cabeceras */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
