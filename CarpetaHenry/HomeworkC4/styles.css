@@ -1,0 +1,13 @@
+.images{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+
+}
+
+.image{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
